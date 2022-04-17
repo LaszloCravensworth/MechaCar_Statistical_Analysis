@@ -61,23 +61,22 @@
 
 ![lot_3](https://github.com/LaszloCravensworth/MechaCar_Statistical_Analysis/blob/main/analysis_pngs/t_test_lot3.png)
 
-## Study Design: MechaCar vs Competition - Safety Rating
+## Study Design: MechaCar vs Competition - Safety Performance
 
 &nbsp;&nbsp;&nbsp; Great designs sometimes cut corners on safety.  Over the years we've seen safety performance come to be a huge topic from autonomous vehicles, batteries, crash tests, etc... After all, what good is a car that doesn't protect the safety of its passengers and those around it?
 
 ### Metric to test:
-&nbsp;&nbsp;&nbsp;* Mechanical failures after x amount of miles
+&nbsp;&nbsp;&nbsp;* Mechanical failures after x amount of miles driven
 
 ### Null Hypothesis:
-&nbsp;&nbsp;&nbsp;* Vehicles with similar structure and design have the same safety performance.
+&nbsp;&nbsp;&nbsp;* Vehicles with same structure and design have the same safety performance.
 
 ### Alternative Hypothesis:
-&nbsp;&nbsp;&nbsp;* Vehicles with similar structure and design do not have the same safety perfomance.
+&nbsp;&nbsp;&nbsp;* Vehicles with same structure and design do not have the same safety perfomance.
 
 ### Statistical Test:
-&nbsp;&nbsp;&nbsp;* With this test there are many factors that could come into play so using a Manova statistical test would be most beneficial.
+&nbsp;&nbsp;&nbsp;* A one way ANOVA statistical test could be used for this analysis because you're testing one factor among two different groups: the competition and MechaCar.
 
 ### Data Needed To Run The Statistical Test:
-
-&nbsp;&nbsp;&nbsp;* The data require for this statistical test would require multiple factors from a large sample population.
+&nbsp;&nbsp;&nbsp;* The data required for this test would be safety perfomance data, preferably from a large sample population because you can not determine a significant difference with a very small sample population.
 
